@@ -5,5 +5,20 @@ h1{
 }
 
 body{
-  background-color: #f8e;
+  background-color: #f8efff;
+}
+
+.nav li{
+  display: block;
+  font-size: 13px;
+  list-style-type: none;
+}
+
+.nav{
+  position: relative;
+  margin: 0 auto;
+}
+
+img{
+  height: 300px;
 }

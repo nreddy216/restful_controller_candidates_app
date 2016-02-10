@@ -12,7 +12,29 @@
         <!-- <link href="<%= url('directory/styles.css') %>" rel="stylesheet" type="text/css" /> -->
     </head>
     <body>
-      <h2>2016 Presidential Candidates</h2>
+      <h2>2016 Prez Candidates</h2>
       <h3><%= yield %></h3>
+      <img src="../images/<%=yield%>.jpg" alt="">
+
+      <h4>All Candidates</h4>
+
+      <div class="nav container-fluid">
+        <ul>
+          <li>
+            <a href="/candidates/1">Bernie</a>
+          </li>
+          <li>
+            <a href="/candidates/2">Hillary</a>
+          </li>
+          <li>
+            <a href="/candidates/3">Donald</a>
+          </li>
+          <li>
+            <a href="/candidates/4">Ted</a>
+          </li>
+        </ul>
+      </div>
+
+
     </body>
 </html>
